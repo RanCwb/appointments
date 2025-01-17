@@ -2,13 +2,10 @@ package com.dot.scheduling.service;
 
 import java.util.List;
 import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.dot.scheduling.model.Person;
 import com.dot.scheduling.repositories.PersonRepository;
-
 
 @Service
 public class PersonService {
